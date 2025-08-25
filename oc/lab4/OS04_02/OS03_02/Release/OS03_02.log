@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Release\) содержит файлы, которые используются совместно с другим проектом (OS03_02.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  OS03_02.cpp
+  Создание кода
+  Compiler switch has changed, fall back to full compilation.
+  All 76 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  OS03_02.vcxproj -> D:\5sem\oc\lab4\OS04_02\Release\OS04_02.exe

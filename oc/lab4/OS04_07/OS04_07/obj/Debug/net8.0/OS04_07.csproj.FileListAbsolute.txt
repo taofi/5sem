@@ -1,0 +1,14 @@
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.GeneratedMSBuildEditorConfig.editorconfig
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.AssemblyInfoInputs.cache
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.AssemblyInfo.cs
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.csproj.CoreCompileInputs.cache
+D:\5sem\oc\lab4\OS04_07\OS04_07\bin\Debug\net8.0\OS04_07.exe
+D:\5sem\oc\lab4\OS04_07\OS04_07\bin\Debug\net8.0\OS04_07.deps.json
+D:\5sem\oc\lab4\OS04_07\OS04_07\bin\Debug\net8.0\OS04_07.runtimeconfig.json
+D:\5sem\oc\lab4\OS04_07\OS04_07\bin\Debug\net8.0\OS04_07.dll
+D:\5sem\oc\lab4\OS04_07\OS04_07\bin\Debug\net8.0\OS04_07.pdb
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.dll
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\refint\OS04_07.dll
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.pdb
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\OS04_07.genruntimeconfig.cache
+D:\5sem\oc\lab4\OS04_07\OS04_07\obj\Debug\net8.0\ref\OS04_07.dll

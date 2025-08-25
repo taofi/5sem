@@ -1,0 +1,3 @@
+D:/5sem/sp/CMakeProject1/CMakeProject1/CMakeFiles/CMakeProject1.dir
+D:/5sem/sp/CMakeProject1/CMakeProject1/CMakeFiles/edit_cache.dir
+D:/5sem/sp/CMakeProject1/CMakeProject1/CMakeFiles/rebuild_cache.dir

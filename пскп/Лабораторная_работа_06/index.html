@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+        label{
+            flex-grow: 1;
+        }
+        input {
+            height: 30px;
+            width: 250px;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+            padding: 5px;
+            align-self: flex-end;
+        }
+
+        div {
+            margin: 5px;
+            width: 400px;
+            display: flex;
+        }
+
+
+
+    </style>
+
+</head>
+
+
+
+<body>
+<form method="POST">
+    <table id="container_table">
+        <div>
+            <label for="sender">Отправитель</label>
+            <input  id="sender" type="email" name="sender" placeholder="E-mail">
+        </div>
+        <div>
+            <label for="receiver">Получатель</label>
+            <input id="receiver" type="email" name="receiver" placeholder="E-mail">
+        </div>
+        <div>
+            <label for="subject">Тема</label>
+            <input id="subject" type="text" name="subject" placeholder="Тема">
+        </div>
+        <div>
+
+            <label for="message">Сообщение</label>
+            <input id="message" type="text" name="message" placeholder="Сообщение">
+        </div>
+    </table>
+
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>

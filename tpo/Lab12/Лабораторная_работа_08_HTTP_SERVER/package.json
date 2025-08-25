@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "multiparty": "^4.2.3",
+    "xml2js": "^0.6.2"
+  },
+
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3",
+    "chai-http": "^4.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+
+}

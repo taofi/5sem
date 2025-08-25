@@ -1,0 +1,10 @@
+^D:\5SEM\SP\CMAKEPROJECT1\CMAKEPROJECT1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/5sem/sp/CMakeProject1/CMakeProject1 -BD:/5sem/sp/CMakeProject1/CMakeProject1 --check-stamp-file D:/5sem/sp/CMakeProject1/CMakeProject1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

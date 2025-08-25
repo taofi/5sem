@@ -1,0 +1,14 @@
+D:\5sem\tpo\Lab9\Lab9\bin\Debug\net8.0\Lab9.exe
+D:\5sem\tpo\Lab9\Lab9\bin\Debug\net8.0\Lab9.deps.json
+D:\5sem\tpo\Lab9\Lab9\bin\Debug\net8.0\Lab9.runtimeconfig.json
+D:\5sem\tpo\Lab9\Lab9\bin\Debug\net8.0\Lab9.dll
+D:\5sem\tpo\Lab9\Lab9\bin\Debug\net8.0\Lab9.pdb
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.GeneratedMSBuildEditorConfig.editorconfig
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.AssemblyInfoInputs.cache
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.AssemblyInfo.cs
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.csproj.CoreCompileInputs.cache
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.dll
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\refint\Lab9.dll
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.pdb
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\Lab9.genruntimeconfig.cache
+D:\5sem\tpo\Lab9\Lab9\obj\Debug\net8.0\ref\Lab9.dll

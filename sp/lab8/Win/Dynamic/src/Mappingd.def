@@ -1,0 +1,12 @@
+LIBRARY Mappingd
+EXPORTS
+    createSampleFile
+    OpenMapping @1
+    AddRow
+    ChekPos
+    RemRow
+    PrintRow
+    PrintRows
+    CloseMapping
+    getValidInput
+    GetPStudents

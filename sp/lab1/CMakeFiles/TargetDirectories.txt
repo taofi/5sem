@@ -1,0 +1,3 @@
+D:/5sem/sp/lab1/CMakeFiles/ALL_BUILD.dir
+D:/5sem/sp/lab1/CMakeFiles/ZERO_CHECK.dir
+D:/5sem/sp/lab1/lab1/CMakeFiles/MyExecutable.dir

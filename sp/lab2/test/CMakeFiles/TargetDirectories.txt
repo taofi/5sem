@@ -1,0 +1,3 @@
+D:/5sem/sp/lab2/test/CMakeFiles/Lab-02inf.dir
+D:/5sem/sp/lab2/test/CMakeFiles/edit_cache.dir
+D:/5sem/sp/lab2/test/CMakeFiles/rebuild_cache.dir

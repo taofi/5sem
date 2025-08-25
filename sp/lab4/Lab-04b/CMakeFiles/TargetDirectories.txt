@@ -1,0 +1,3 @@
+D:/5sem/sp/lab4/Lab-04b/CMakeFiles/Lab-04b.dir
+D:/5sem/sp/lab4/Lab-04b/CMakeFiles/edit_cache.dir
+D:/5sem/sp/lab4/Lab-04b/CMakeFiles/rebuild_cache.dir

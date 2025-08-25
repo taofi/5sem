@@ -1,0 +1,3 @@
+D:/5sem/sp/lab5/Lab-5c/CMakeFiles/Lab-05c.dir
+D:/5sem/sp/lab5/Lab-5c/CMakeFiles/edit_cache.dir
+D:/5sem/sp/lab5/Lab-5c/CMakeFiles/rebuild_cache.dir

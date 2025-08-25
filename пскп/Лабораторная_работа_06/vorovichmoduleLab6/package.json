@@ -1,0 +1,11 @@
+{
+  "name": "vorovichmodulelab6",
+  "version": "1.0.0",
+  "description": "module for lab6",
+  "main": "vorovichmoduleLab6.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kirill vorovich",
+  "license": "ISC"
+}

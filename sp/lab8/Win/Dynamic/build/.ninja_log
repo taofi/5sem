@@ -1,0 +1,9 @@
+# ninja log v6
+41	902	7580389553515833	CMakeFiles/Lab-08b.dir/src/Lab-08b.c.obj	91b5955e28376876
+41	480	7580390133217321	CMakeFiles/Mappingd-2.dir/src/dllmain-2.c.obj	3ee40ca3dbc5deed
+36	507	7580390133174556	CMakeFiles/Mappingd.dir/src/dllmain.c.obj	fed7bffddafa8efd
+482	662	7580390137631192	Mappingd-2.dll	6d0089ec8d5e060
+482	662	7580390137631192	Mappingd-2.lib	6d0089ec8d5e060
+509	693	7580390137904609	Mappingd.dll	93fd2beac98d2f2d
+509	693	7580390137904609	Mappingd.lib	93fd2beac98d2f2d
+693	835	7580390139739472	Lab-08b.exe	d5c6cd3150130ae7

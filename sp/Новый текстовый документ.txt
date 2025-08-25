@@ -1,0 +1,10 @@
+cmake -G "Ninja" -DCMAKE_C_COMPILER=clang
+cmake --build ./
+gcc -o [Имя файла] [Имя файла. с]
+
+ls -l /proc/pid/fd
+cat /proc/pid/maps
+
+asd-фыв
+
+

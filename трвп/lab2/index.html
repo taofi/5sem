@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB5A</title>
+</head>
+<body>
+<form id="combinedForm">
+    <label for="x">X (для суммы):</label>
+    <input type="number" id="x" name="x">
+    <br>
+    <label for="y">Y (для суммы):</label>
+    <input type="number" id="y" name="y">
+    <br>
+    <button id="calcButton" type="button">Calculate Sum</button>
+    <br><br>
+
+    <label for="n">N (для случайных чисел):</label>
+    <input type="number" id="n" name="n">
+    <br>
+    <button id="randButton" type="button">Generate Random Numbers</button>
+    <br><br>
+</form>
+
+<p>Sum Result: <span id="sumResult"></span></p>
+<p>Random Numbers: <span id="randomResult"></span></p>
+<script>
+    function syncRequest(url, headers, callback) {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', url, true);
+        for (let key in headers) {
+            xhr.setRequestHeader(key, headers[key]);
+        }
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                callback(xhr);
+            }
+        };
+        xhr.send();
+    }
+
+    document.getElementById('calcButton').addEventListener('click', () => {
+        const x = document.getElementById('x').value;
+        const y = document.getElementById('y').value;
+
+        syncRequest('http://127.0.0.1:5000/calculate', {'x-value-x': x, 'x-value-y': y}, function(response) {
+            document.getElementById('sumResult').textContent = response.getResponseHeader('X-Value-z');
+        });
+    });
+
+    document.getElementById('randButton').addEventListener('click', () => {
+        const n = document.getElementById('n').value;
+
+        syncRequest('http://127.0.0.1:5000/random-numbers', {'X-Rand-N': n}, function(response) {
+            const data = JSON.parse(response.responseText);
+            document.getElementById('randomResult').textContent = data.numbers.join(', ');
+        });
+    });
+
+</script>
+</body>
+</html>

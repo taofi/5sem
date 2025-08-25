@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem\\oc\\lab4\\OS04_07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7919E5EF-AD04-4E9C-BD40-DAAD2D90A643}|OS04_07\\OS04_07.csproj|d:\\5sem\\oc\\lab4\\os04_07\\os04_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7919E5EF-AD04-4E9C-BD40-DAAD2D90A643}|OS04_07\\OS04_07.csproj|solutionrelative:os04_07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem\\oc\\lab4\\OS04_07\\OS04_07\\Program.cs",
+              "RelativeDocumentMoniker": "OS04_07\\Program.cs",
+              "ToolTip": "D:\\5sem\\oc\\lab4\\OS04_07\\OS04_07\\Program.cs",
+              "RelativeToolTip": "OS04_07\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAqwD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T06:48:32.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 875,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

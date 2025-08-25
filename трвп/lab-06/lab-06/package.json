@@ -1,0 +1,19 @@
+{
+  "name": "lab-06",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "config": "^3.3.12",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.7"
+  }
+}

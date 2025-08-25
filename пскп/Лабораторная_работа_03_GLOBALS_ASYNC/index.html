@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="results"></div>
+<script>
+    const resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = ''; // Очистка предыдущих результатов
+    const startTime = Date.now();
+
+    (async () =>{
+        for (let k = 1; k <= 20; k++) {
+            console.log(k);
+            try {
+                const response = await fetch(`http://localhost:5000/fact?k=${k}`);
+                const data = await response.json(); // Обработка JSON-ответа
+
+                const elapsedTime = Date.now() - startTime;
+                const resultDiv = document.createElement('div');
+                resultDiv.className = 'result';
+                resultDiv.textContent = `${elapsedTime} ms - k=${data.k}, fact=${data.fact}`;
+                resultsDiv.appendChild(resultDiv);
+            } catch (error) {
+                console.error('Ошибка при запросе:', error);
+            }
+        }
+    })()
+</script>
+</body>
+</html>

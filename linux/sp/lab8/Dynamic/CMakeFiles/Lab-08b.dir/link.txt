@@ -1,0 +1,1 @@
+/usr/bin/clang "CMakeFiles/Lab-08b.dir/src/Lab-08b.c.o" -o Lab-08b  -Wl,-rpath,/media/sf_linux/sp/lab8/Dynamic libMappingd.so 

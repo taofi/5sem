@@ -1,0 +1,7 @@
+﻿  ClientU.cpp
+D:\5sem\pnp\Lab3\ClientU\ClientU.cpp(67,54): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\5sem\pnp\Lab3\ClientU\ClientU.cpp(78,50): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\5sem\pnp\Lab3\ClientU\ClientU.cpp(57,13): warning C4101: in: неиспользованная локальная переменная
+  errors.cpp
+  Создание кода...
+  ClientU.vcxproj -> D:\5sem\pnp\Lab3\x64\Debug\ClientU.exe

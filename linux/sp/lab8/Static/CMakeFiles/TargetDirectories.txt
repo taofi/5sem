@@ -1,0 +1,6 @@
+/media/sf_linux/sp/lab8/Static/CMakeFiles/Lab-08a.dir
+/media/sf_linux/sp/lab8/Static/CMakeFiles/edit_cache.dir
+/media/sf_linux/sp/lab8/Static/CMakeFiles/rebuild_cache.dir
+/media/sf_linux/sp/lab8/Static/library/CMakeFiles/Mappings.dir
+/media/sf_linux/sp/lab8/Static/library/CMakeFiles/edit_cache.dir
+/media/sf_linux/sp/lab8/Static/library/CMakeFiles/rebuild_cache.dir

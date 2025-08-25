@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>Лабораторная 1 </h1>
+<p>
+    <a href="https://www.belstu.by/">БГТУ</a>
+</p>
+<button id="infoButton">информация о браузере</button>
+<p id="browserInfo"></p>
+
+<script>
+    document.getElementById('infoButton').addEventListener('click', function() {
+        const browserInfo = `
+        appCodeName = ${navigator.appCodeName}
+        appName = ${navigator.appName}
+        appVersion = ${navigator.appVersion}
+        userAgent = ${navigator.userAgent}`;
+        document.getElementById('browserInfo').textContent = browserInfo.trim();
+        console.log("Hello World");
+    });
+</script>
+
+</body>
+</html>

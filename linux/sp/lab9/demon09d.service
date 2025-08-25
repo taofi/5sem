@@ -1,0 +1,25 @@
+[Unit]
+
+Description=Directory Watcher Daemon
+
+After=network.target
+
+
+
+[Service]
+
+Type=simple
+
+ExecStart=/usr/bin/Demon09
+
+ExecReload=/bin/kill -HUP $MAINPID
+
+KillSignal=SIGTERM
+
+User=root
+
+
+
+[Install]
+
+WantedBy=multi-user.target

@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem\\pnp\\Lab07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB9FC7A-1E5C-4CB3-84EF-450073F7FA93}|ClientMS\\ClientMS.vcxproj|D:\\5sem\\pnp\\Lab07\\ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3AB9FC7A-1E5C-4CB3-84EF-450073F7FA93}|ClientMS\\ClientMS.vcxproj|solutionrelative:ClientMS\\ClientMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4500FA44-F100-476F-B95D-9A386299AFCD}|ServerMS\\ServerMS.vcxproj|D:\\5sem\\pnp\\Lab07\\ServerMS\\ServerMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4500FA44-F100-476F-B95D-9A386299AFCD}|ServerMS\\ServerMS.vcxproj|solutionrelative:ServerMS\\ServerMS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServerMS.cpp",
+              "DocumentMoniker": "D:\\5sem\\pnp\\Lab07\\ServerMS\\ServerMS.cpp",
+              "RelativeDocumentMoniker": "ServerMS\\ServerMS.cpp",
+              "ToolTip": "D:\\5sem\\pnp\\Lab07\\ServerMS\\ServerMS.cpp",
+              "RelativeToolTip": "ServerMS\\ServerMS.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-25T18:31:57.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientMS.cpp",
+              "DocumentMoniker": "D:\\5sem\\pnp\\Lab07\\ClientMS\\ClientMS.cpp",
+              "RelativeDocumentMoniker": "ClientMS\\ClientMS.cpp",
+              "ToolTip": "D:\\5sem\\pnp\\Lab07\\ClientMS\\ClientMS.cpp",
+              "RelativeToolTip": "ClientMS\\ClientMS.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAMB0PQIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-25T18:28:02.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 875,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

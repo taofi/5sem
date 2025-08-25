@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem\\oc\\lab7\\OS07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\5sem\\linux\\os\\OS07_06.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\5sem\\linux\\os\\OS07_05.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85FB1D93-D996-4CCC-AB32-50A01222E750}|OS07_04\\OS07_04.csproj|d:\\5sem\\oc\\lab7\\os07\\os07_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85FB1D93-D996-4CCC-AB32-50A01222E750}|OS07_04\\OS07_04.csproj|solutionrelative:os07_04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D2632D-747C-4BA3-AC66-CE19567EE453}|OS07_03\\OS07_03.csproj|d:\\5sem\\oc\\lab7\\os07\\os07_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D2632D-747C-4BA3-AC66-CE19567EE453}|OS07_03\\OS07_03.csproj|solutionrelative:os07_03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{552DC6A2-6FD7-4E6B-AB64-EB7A944AB619}|OS07_02\\OS07_02.csproj|d:\\5sem\\oc\\lab7\\os07\\os07_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{552DC6A2-6FD7-4E6B-AB64-EB7A944AB619}|OS07_02\\OS07_02.csproj|solutionrelative:os07_02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3DBAC75-B6E4-44C8-9F6C-741A2626669A}|OS07\\OS07.csproj|d:\\5sem\\oc\\lab7\\os07\\os07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3DBAC75-B6E4-44C8-9F6C-741A2626669A}|OS07\\OS07.csproj|solutionrelative:os07\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD657A1-E387-41AA-882B-13BAB16305D7}|OS07_04_X\\OS07_04_X.csproj|d:\\5sem\\oc\\lab7\\os07\\os07_04_x\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD657A1-E387-41AA-882B-13BAB16305D7}|OS07_04_X\\OS07_04_X.csproj|solutionrelative:os07_04_x\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem\\oc\\lab7\\OS07\\OS07\\Program.cs",
+              "RelativeDocumentMoniker": "OS07\\Program.cs",
+              "ToolTip": "D:\\5sem\\oc\\lab7\\OS07\\OS07\\Program.cs",
+              "RelativeToolTip": "OS07\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:26:14.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OS07_06.c",
+              "DocumentMoniker": "D:\\5sem\\linux\\os\\OS07_06.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\linux\\os\\OS07_06.c",
+              "ToolTip": "D:\\5sem\\linux\\os\\OS07_06.c",
+              "RelativeToolTip": "..\\..\\..\\linux\\os\\OS07_06.c",
+              "ViewState": "AgIAAAoAAAAAMTMzMzMLwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-17T17:23:01.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OS07_05.c",
+              "DocumentMoniker": "D:\\5sem\\linux\\os\\OS07_05.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\linux\\os\\OS07_05.c",
+              "ToolTip": "D:\\5sem\\linux\\os\\OS07_05.c",
+              "RelativeToolTip": "..\\..\\..\\linux\\os\\OS07_05.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-11-17T17:23:01.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem\\oc\\lab7\\OS07\\OS07_04\\Program.cs",
+              "RelativeDocumentMoniker": "OS07_04\\Program.cs",
+              "ToolTip": "D:\\5sem\\oc\\lab7\\OS07\\OS07_04\\Program.cs",
+              "RelativeToolTip": "OS07_04\\Program.cs",
+              "ViewState": "AgIAAAMAAADwyszMzMw3wAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:47:23.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem\\oc\\lab7\\OS07\\OS07_04_X\\Program.cs",
+              "RelativeDocumentMoniker": "OS07_04_X\\Program.cs",
+              "ToolTip": "D:\\5sem\\oc\\lab7\\OS07\\OS07_04_X\\Program.cs",
+              "RelativeToolTip": "OS07_04_X\\Program.cs",
+              "ViewState": "AgIAAAAAAACPZGZmZmYkwBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:44:19.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem\\oc\\lab7\\OS07\\OS07_03\\Program.cs",
+              "RelativeDocumentMoniker": "OS07_03\\Program.cs",
+              "ToolTip": "D:\\5sem\\oc\\lab7\\OS07\\OS07_03\\Program.cs",
+              "RelativeToolTip": "OS07_03\\Program.cs",
+              "ViewState": "AgIAAAUAAAAA/f//////vw4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:32:58.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\5sem\\oc\\lab7\\OS07\\OS07_02\\Program.cs",
+              "RelativeDocumentMoniker": "OS07_02\\Program.cs",
+              "ToolTip": "D:\\5sem\\oc\\lab7\\OS07\\OS07_02\\Program.cs",
+              "RelativeToolTip": "OS07_02\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAIDMzMzPjvxkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T16:16:11.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 875,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

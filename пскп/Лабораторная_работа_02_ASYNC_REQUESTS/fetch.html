@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="tag"></p>
+<script>
+    let url = 'http://127.0.0.1:5000/api/name';
+    let el = document.getElementById('tag');
+    async function fetchUrl(url){
+        let response = await fetch(url);
+        console.log('fetch');
+        if (response.ok) {
+            el.textContent  = await response.text();
+        } else {
+            alert("Ошибка HTTP: " + response.status);
+        }
+    }
+    fetchUrl(url);
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+[Unit]
+
+Description=Directory Watcher Daemon
+
+After=network.target
+
+
+
+[Service]
+
+Type=forking
+
+ExecStart=/usr/bin/Demon09
+
+ExecReload=/bin/kill -HUP $MAINPID
+
+ExecStop=/bin/kill -TERM $MAINPID
+
+PIDFile=/run/Demon09.pid
+
+Restart=on-failure
+
+User=kirill308777
+
+
+
+[Install]
+
+WantedBy=multi-user.target

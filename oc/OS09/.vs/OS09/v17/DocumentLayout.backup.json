@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\5sem\\oc\\OS09\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B002E874-EBD0-4F0A-894D-B7323B7ED400}|OS09_02\\OS09_02.vcxproj|D:\\5sem\\oc\\OS09\\OS09_02\\OS09_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B002E874-EBD0-4F0A-894D-B7323B7ED400}|OS09_02\\OS09_02.vcxproj|solutionrelative:OS09_02\\OS09_02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\5sem\\linux\\os\\lab09lin\\OS09_06.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\5sem\\linux\\os\\lab09lin\\OS09_05.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17F85E15-A8C0-45ED-9CDB-8A5054A53B17}|OS09_03\\OS09_03.vcxproj|D:\\5sem\\oc\\OS09\\OS09_03\\OS09_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{17F85E15-A8C0-45ED-9CDB-8A5054A53B17}|OS09_03\\OS09_03.vcxproj|solutionrelative:OS09_03\\OS09_03.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\5sem\\linux\\os\\lab09lin\\OS09_07.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89CF31F1-7137-491C-8A8C-516BFE569198}|OS09_01\\OS09_01.vcxproj|D:\\5sem\\oc\\OS09\\OS09_01\\OS09_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89CF31F1-7137-491C-8A8C-516BFE569198}|OS09_01\\OS09_01.vcxproj|solutionrelative:OS09_01\\OS09_01.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AECA40C-43C9-4EA6-BD7A-DB4E1FD8F00E}|OS09_04\\OS09_04.vcxproj|D:\\5sem\\oc\\OS09\\OS09_04\\OS09_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1AECA40C-43C9-4EA6-BD7A-DB4E1FD8F00E}|OS09_04\\OS09_04.vcxproj|solutionrelative:OS09_04\\OS09_04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OS09_05.c",
+              "DocumentMoniker": "D:\\5sem\\linux\\os\\lab09lin\\OS09_05.c",
+              "RelativeDocumentMoniker": "..\\..\\linux\\os\\lab09lin\\OS09_05.c",
+              "ToolTip": "D:\\5sem\\linux\\os\\lab09lin\\OS09_05.c",
+              "RelativeToolTip": "..\\..\\linux\\os\\lab09lin\\OS09_05.c",
+              "ViewState": "AgIAAAoAAADAMDMzMzMbwB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-01T17:01:42.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OS09_07.c",
+              "DocumentMoniker": "D:\\5sem\\linux\\os\\lab09lin\\OS09_07.c",
+              "RelativeDocumentMoniker": "..\\..\\linux\\os\\lab09lin\\OS09_07.c",
+              "ToolTip": "D:\\5sem\\linux\\os\\lab09lin\\OS09_07.c",
+              "RelativeToolTip": "..\\..\\linux\\os\\lab09lin\\OS09_07.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-01T17:01:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OS09_06.c",
+              "DocumentMoniker": "D:\\5sem\\linux\\os\\lab09lin\\OS09_06.c",
+              "RelativeDocumentMoniker": "..\\..\\linux\\os\\lab09lin\\OS09_06.c",
+              "ToolTip": "D:\\5sem\\linux\\os\\lab09lin\\OS09_06.c",
+              "RelativeToolTip": "..\\..\\linux\\os\\lab09lin\\OS09_06.c",
+              "ViewState": "AgIAAA4AAADgZmZmZiYgwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-01T17:01:41.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OS09_04.cpp",
+              "DocumentMoniker": "D:\\5sem\\oc\\OS09\\OS09_04\\OS09_04.cpp",
+              "RelativeDocumentMoniker": "OS09_04\\OS09_04.cpp",
+              "ToolTip": "D:\\5sem\\oc\\OS09\\OS09_04\\OS09_04.cpp",
+              "RelativeToolTip": "OS09_04\\OS09_04.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T13:44:53.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OS09_03.cpp",
+              "DocumentMoniker": "D:\\5sem\\oc\\OS09\\OS09_03\\OS09_03.cpp",
+              "RelativeDocumentMoniker": "OS09_03\\OS09_03.cpp",
+              "ToolTip": "D:\\5sem\\oc\\OS09\\OS09_03\\OS09_03.cpp",
+              "RelativeToolTip": "OS09_03\\OS09_03.cpp",
+              "ViewState": "AgIAAHUAAAAAwszMzMwXwGoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T12:58:21.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OS09_02.cpp",
+              "DocumentMoniker": "D:\\5sem\\oc\\OS09\\OS09_02\\OS09_02.cpp",
+              "RelativeDocumentMoniker": "OS09_02\\OS09_02.cpp",
+              "ToolTip": "D:\\5sem\\oc\\OS09\\OS09_02\\OS09_02.cpp",
+              "RelativeToolTip": "OS09_02\\OS09_02.cpp",
+              "ViewState": "AgIAAKEAAAAAMjMzMzMrwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T12:46:23.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OS09_01.cpp",
+              "DocumentMoniker": "D:\\5sem\\oc\\OS09\\OS09_01\\OS09_01.cpp",
+              "RelativeDocumentMoniker": "OS09_01\\OS09_01.cpp",
+              "ToolTip": "D:\\5sem\\oc\\OS09\\OS09_01\\OS09_01.cpp",
+              "RelativeToolTip": "OS09_01\\OS09_01.cpp",
+              "ViewState": "AgIAACsAAABAZ2ZmZmYkwDkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T12:33:40.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

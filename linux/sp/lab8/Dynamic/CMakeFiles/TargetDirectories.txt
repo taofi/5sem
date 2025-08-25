@@ -1,0 +1,4 @@
+/media/sf_linux/sp/lab8/Dynamic/CMakeFiles/Mappingd.dir
+/media/sf_linux/sp/lab8/Dynamic/CMakeFiles/Lab-08b.dir
+/media/sf_linux/sp/lab8/Dynamic/CMakeFiles/edit_cache.dir
+/media/sf_linux/sp/lab8/Dynamic/CMakeFiles/rebuild_cache.dir

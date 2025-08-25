@@ -1,0 +1,3 @@
+D:/5sem/sp/lab7/lab7/win/CMakeFiles/Lab-07a.dir
+D:/5sem/sp/lab7/lab7/win/CMakeFiles/edit_cache.dir
+D:/5sem/sp/lab7/lab7/win/CMakeFiles/rebuild_cache.dir

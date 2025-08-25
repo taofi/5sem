@@ -1,0 +1,1 @@
+/usr/bin/clang "CMakeFiles/Lab-08a.dir/Lab-08a.c.o" -o Lab-08a  library/libMappings.a 

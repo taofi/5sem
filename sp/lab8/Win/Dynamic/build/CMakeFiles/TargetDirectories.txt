@@ -1,0 +1,5 @@
+D:/5sem/sp/lab8/Win/Dynamic/build/CMakeFiles/Mappingd.dir
+D:/5sem/sp/lab8/Win/Dynamic/build/CMakeFiles/Mappingd-2.dir
+D:/5sem/sp/lab8/Win/Dynamic/build/CMakeFiles/Lab-08b.dir
+D:/5sem/sp/lab8/Win/Dynamic/build/CMakeFiles/edit_cache.dir
+D:/5sem/sp/lab8/Win/Dynamic/build/CMakeFiles/rebuild_cache.dir

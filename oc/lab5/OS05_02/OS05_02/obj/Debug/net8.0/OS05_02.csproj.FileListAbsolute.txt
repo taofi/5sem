@@ -1,0 +1,14 @@
+D:\5sem\oc\lab5\OS05_02\OS05_02\bin\Debug\net8.0\OS05_02.exe
+D:\5sem\oc\lab5\OS05_02\OS05_02\bin\Debug\net8.0\OS05_02.deps.json
+D:\5sem\oc\lab5\OS05_02\OS05_02\bin\Debug\net8.0\OS05_02.runtimeconfig.json
+D:\5sem\oc\lab5\OS05_02\OS05_02\bin\Debug\net8.0\OS05_02.dll
+D:\5sem\oc\lab5\OS05_02\OS05_02\bin\Debug\net8.0\OS05_02.pdb
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.GeneratedMSBuildEditorConfig.editorconfig
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.AssemblyInfoInputs.cache
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.AssemblyInfo.cs
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.csproj.CoreCompileInputs.cache
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.dll
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\refint\OS05_02.dll
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.pdb
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\OS05_02.genruntimeconfig.cache
+D:\5sem\oc\lab5\OS05_02\OS05_02\obj\Debug\net8.0\ref\OS05_02.dll

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="tag"></p>
+<script>
+    let xhr = new XMLHttpRequest();
+    let URL = 'http://127.0.0.1:5000/api/name';
+    let el = document.getElementById('tag');
+    xhr.open('GET', URL, true);
+    xhr.onload = function (){
+        if (xhr.status != 200) {
+            el.innerHTML = 'error';
+        } else {
+            el.textContent  = xhr.responseText;
+        }
+    }
+    xhr.send();
+
+</script>
+</body>
+</html>

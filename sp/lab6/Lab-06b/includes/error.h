@@ -1,0 +1,32 @@
+#pragma once
+
+enum ERROR_CODE {
+	SUCCSESS_CODE,
+	INVALID_COMMAND_CODE,
+	FILE_HANDLE_NOT_OPEN_CODE,
+	ENABLED_TO_OPEN_FILE_CODE,
+	INVALID_ADD_POSITION_CODE,
+	INVALID_REMOVE_POSITION_CODE,
+	ADDED_ROW_IS_NULL_CODE,
+	ROW_NOT_FOUND_CODE,
+	MEMORY_ALLOCATION_CODE,
+	READ_FILE_ERROR_CODE,
+	WRITE_FILE_ERROR_CODE
+};
+
+struct Error {
+	int code;
+	char *message;
+};
+
+extern struct Error SUCCSESS;
+extern struct Error INVALID_COMMAND;
+extern struct Error FILE_HANDLE_NOT_OPEN;
+extern struct Error ENABLED_TO_OPEN_FILE;
+extern struct Error INVALID_ADD_POSITION;
+extern struct Error ADDED_ROW_IS_NULL;
+extern struct Error INVALID_REMOVE_POSITION;
+extern struct Error ROW_NOT_FOUND;
+extern struct Error MEMORY_ALLOCATION;
+extern struct Error READ_FILE_ERROR;
+extern struct Error WRITE_FILE_ERROR;

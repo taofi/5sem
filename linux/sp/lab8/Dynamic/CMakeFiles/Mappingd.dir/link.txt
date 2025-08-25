@@ -1,0 +1,1 @@
+/usr/bin/clang -fPIC -shared -Wl,-soname,libMappingd.so -o libMappingd.so CMakeFiles/Mappingd.dir/src/Mappingd.c.o 

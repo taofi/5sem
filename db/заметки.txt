@@ -1,0 +1,40 @@
+docker run --name odb -p 1521:1521 -e ORACLE_PWD=1234 -e ENABLE_ARCHIVELOG=true -e ENABLE_FORCE_LOGGING=true container-registry.oracle.com/database/free:23.5.0.0-lite
+
+docker run -d -e ORACLE_PWD="root" --name testdb -p 5500:5500  -p 8080:8080 -p 1521:1521 container-registry.oracle.com/database/express:21.3.0-xe
+
+sqlplus sys/root@test21 as sysdba
+
+ALTER USER VKSCORE IDENTIFIED BY newpass;
+
+CREATE TABLE VKS_T1 (ID NUMBER PRIMARY KEY, NAME VARCHAR2(50)) TABLESPACE VKS_QDATA;
+INSERT INTO VKS_T1 (ID, NAME) VALUES (1, 'Alice');
+INSERT INTO VKS_T1 (ID, NAME) VALUES (2, 'Bob');
+INSERT INTO VKS_T1 (ID, NAME) VALUES (3, 'Charlie');
+
+docker exec –it orclcdb bash
+
+SHOW PDBS;
+select name from v$datafile;
+SELECT tablespace_name, file_name, bytes / 1024 / 1024 AS size_mb
+FROM dba_data_files;
+
+
+CREATE PLUGGABLE DATABASE ORCLPDB2 FROM XEPDB1 
+	FILE_NAME_CONVERT =('/opt/oracle/oradata/orclcdb/ORCLPDB1/', '/opt/oracle/oradata/orclcdb/ORCLPDB2/') 
+	PATH_PREFIX='/opt/oracle/oradata/orclcdb/ORCLPDB2';
+
+ALTER PLUGGABLE DATABASE ORCLPDB2 OPEN READ WRITE;
+
+
+CREATE PLUGGABLE DATABASE VKS_PDB
+  ADMIN USER adminPDB IDENTIFIED BY oracle
+  ROLES = (dba)
+  DEFAULT TABLESPACE opdbtblsp
+    DATAFILE '/opt/oracle/oradata/XE/VKS_PDB/VKS_PDB_01.dbf' SIZE 250M AUTOEXTEND ON
+  FILE_NAME_CONVERT = ('/opt/oracle/oradata/XE/pdbseed/',
+                   '/opt/oracle/oradata/XE/VKS_PDB/')
+  STORAGE (MAXSIZE 2G)
+  PATH_PREFIX = '/opt/oracle/oradata/XE/VKS_PDB/';
+
+
+/opt/oracle/homes/OraDBHome21cXE/network/admin - listener.ora

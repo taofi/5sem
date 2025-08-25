@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            margin: 5px;
+            font-family: "Roboto", serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        button{
+            background: rgb(255, 215, 42);
+            width: 100px;
+            height: 25px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #bcbcbc;
+        }
+        button:hover{
+            background: rgb(232, 205, 32);
+        }
+        label{
+            font-size: 15px;
+        }
+        input {
+            width: 250px;
+            height: 25px;
+            padding:  0 10px;
+            border-radius: 5px;
+            border: 1px solid #bcbcbc;
+        }
+        .main{
+            display: flex;
+        }
+        .result{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        #get_result{
+            min-height: 150px;
+            width: 300px;
+            padding: 10px;
+            font-size: 12px;
+            border-radius: 2px;
+            border: 1px solid #bcbcbc;
+        }
+        #message{
+            background: #4c4c4c;
+            color: white;
+            width: 250px;
+            text-align: center;
+            margin: 2px;
+            border-radius: 2px;
+            border: 1px solid #bcbcbc;
+            font-size: 14px;
+            height: 20px;
+        }
+        #error{
+            color: red;
+            font-size: 18px;
+            height: 20px;
+        }
+        .input{
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+
+    <div class="container">
+        <div>
+            <div class="input">
+                <label for="id">ID</label>
+                <input type="number" placeholder="Ведите id" id="id" min="0">
+            </div>
+            <br>
+            <div class="input">
+                <label for="fio">Name</label>
+                <input type="text" placeholder="Ведите имя" id="fio">
+            </div>
+            <br>
+
+            <div class="input">
+                <label for="bdate">Bdate</label>
+                <input type="date" id="bdate">
+            </div>
+
+            <br>
+        </div>
+        <div>
+            <button onclick="Post()">Insert</button>
+            <button onclick="Update()">Update</button>
+            <button onclick="Delete()">Delete</button>
+        </div>
+    </div>
+    <div class="result">
+        <div id="error"></div>
+        <div id="get_result"></div>
+        <div id="message"></div>
+        <div class="get">
+            <button onclick="GET()">Get</button>
+            <button onclick="COMMIT()">commit</button>
+        </div>
+    </div>
+</div>
+<script>
+    async function Post() {
+        const name = document.getElementById('fio').value;
+        const bday = document.getElementById('bdate').value;
+
+        const response = await fetch('http://localhost:3000/api/db', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ name, bday })
+        });
+
+        const result = await response.json();
+        console.log(result);
+        displayResult(result);
+    }
+
+    async function Update() {
+
+        const id = document.getElementById('id').value;
+        const name = document.getElementById('fio').value;
+        const bday = document.getElementById('bdate').value;
+
+        const response = await fetch('http://localhost:3000/api/db', {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ id: parseInt(id), name, bday })
+        });
+
+        const result = await response.json();
+        console.log(result);
+
+        displayResult(result);
+    }
+
+    async function Delete() {
+        console.log("Delete");
+
+        const id = document.getElementById('id').value;
+
+        const response = await fetch('http://localhost:3000/api/db', {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ id: parseInt(id) })
+        });
+
+        const result = await response.json();
+        console.log(result);
+
+        displayResult(result);
+    }
+
+    async function GET() {
+        console.log("get");
+        const response = await fetch('http://localhost:3000/api/db', {
+            method: 'GET'
+        });
+
+        const result = await response.json();
+        console.log(result);
+        displayResult(result);
+    }
+
+    async function COMMIT() {
+        console.log("commit");
+        const response = await fetch('http://localhost:3000/api/db/commit', {
+            method: 'GET'
+        });
+
+        const result = await response.json();
+        console.log(result);
+        displayResult(result);
+    }
+    function displayResult(result) {
+        const getResultDiv = document.getElementById('get_result');
+        const messageDiv = document.getElementById('message');
+        const errorDiv = document.getElementById('error');
+        getResultDiv.innerHTML = '';
+        messageDiv.innerHTML = '';
+        errorDiv.innerHTML = '';
+
+        if (result.error) {
+            errorDiv.innerHTML = result.error;
+            messageDiv.innerHTML = "Ошибка";
+        } else {
+            messageDiv.innerHTML = "Успешно";
+            if (Array.isArray(result)) {
+                getResultDiv.innerHTML = "";
+                result.forEach(c=> getResultDiv.innerHTML += `${c.id} ${c.name} ${c.bday}<br/>`)
+            } else {
+                getResultDiv.innerHTML = `${result.id} ${result.name} ${result.bday}`;
+            }
+        }
+    }
+</script>
+</body>

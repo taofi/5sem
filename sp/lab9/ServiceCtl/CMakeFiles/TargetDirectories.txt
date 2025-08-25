@@ -1,0 +1,3 @@
+D:/5sem/sp/lab9/ServiceCtl/CMakeFiles/ServiceCtrl.dir
+D:/5sem/sp/lab9/ServiceCtl/CMakeFiles/edit_cache.dir
+D:/5sem/sp/lab9/ServiceCtl/CMakeFiles/rebuild_cache.dir
